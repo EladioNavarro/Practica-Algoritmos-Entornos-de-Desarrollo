@@ -2,7 +2,7 @@ package com.entornos.Navarro_Gutierrez_Eladio.algoritmos;
 
 public abstract class Algoritmos {
 
-public int fibonacci(int numero) {
+public static int fibonacci(int numero) {
     if (numero < 0) {
         throw new IllegalArgumentException("El número no puede ser menor que cero.");
     }
@@ -18,7 +18,7 @@ public int fibonacci(int numero) {
     return resultado;
 }
 
-public int factorial(int numero) {
+public static int factorial(int numero) {
     if (numero < 0) {
         throw new IllegalArgumentException("El número no puede ser menor que cero.");
     }
@@ -29,7 +29,7 @@ public int factorial(int numero) {
     return (int) resultado;
 }
 
-public boolean primo(int numero) {
+public static boolean primo(int numero) {
     if (numero < 2) {
         throw new IllegalArgumentException("El número debe ser mayor o igual a 2.");
     }

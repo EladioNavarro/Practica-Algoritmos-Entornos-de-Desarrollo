@@ -1,6 +1,6 @@
 package com.entornos.Navarro_Gutierrez_Eladio.algoritmos;
 
-public class AlgoritmosImpl extends Algoritmos {
+public class AlgoritmosImpl {
 
 	public int fibonacci(int numero) {
         
@@ -8,13 +8,11 @@ public class AlgoritmosImpl extends Algoritmos {
     }
 
 	
-    @Override
     public int factorial(int numero) {
         
         return 0;
     }
 
-    @Override
     public boolean primo(int numero) {
         
         return false;
